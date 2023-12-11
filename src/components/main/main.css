@@ -1,0 +1,66 @@
+.main {
+    width: 320px;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  @media screen and (min-width:1000px) {
+      .main {
+          width:920px;
+      }
+  }
+  label {
+    display: inline-block;
+    width: 100% !important;
+    margin-right: 10px;
+  }
+  .label_text {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 3px;
+  }
+  input {
+    width: 100% !important;
+    padding: 1px 10px;
+  }
+  
+  .search_btn {
+    height: 28px;
+    margin-left: 5px;
+    padding: 0 10px;
+    background: rgba(0, 0, 0, 0.3);
+    border: none;
+    color: #fff;
+    font-size: 14px;
+  }
+  .search_btn:hover{
+    background-color: red;
+    color: #fff;
+  }
+  
+  
+  .selectedFilm{
+      padding: 10px;
+      border: 1px solid #aaa;
+  }
+  
+  .create_film_list_bnt{
+      margin-top: 50px;
+      padding: 5px 15px;
+      background: rgb(129, 128, 128);
+      border: none;
+      color: #fff;
+      
+  }
+  
+  
+  .chosseFilm_mobile{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding-top: 100px;
+    color: #fff;
+  }
